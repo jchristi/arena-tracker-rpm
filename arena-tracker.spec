@@ -29,7 +29,7 @@ Requires: libpng
 Requires: xcb-util-renderutil
 Requires: jpgalleg
 ## Need to build old libjpeg8
-#Requires: libjpeg8-8d >= 3.1
+Requires: libjpeg8
 
 %description
 Tracks your Hearthstone Arena matches and cards. Arena Tracker reads the Hearthstone log
