@@ -1,6 +1,6 @@
 ## The upstream versioning is not semantically correct (ie. 4.4 == 4.40)
-%global   rpm_version 4.41
-%global   zip_version 4.41
+%global   rpm_version 5.2
+%global   zip_version 5.2
 
 ## Disable debug subpackage
 ## https://fedoraproject.org/wiki/Packaging:Debuginfo#Useless_or_incomplete_debuginfo_packages_due_to_other_reasons
@@ -60,5 +60,7 @@ cp -p %{SOURCE2} %{buildroot}%{_datadir}/icons/
 
 
 %changelog
+* Mon Jul 17 2017 <jchristi@github.com> - 5.2-1
+- Update to latest version
 * Sun Jan 01 2017 <jchristi@github.com> - 4.41-1
 - Initial build
