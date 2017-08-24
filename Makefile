@@ -19,4 +19,4 @@ clean:
 	rm -rf $(DIST)
 
 install:
-	sudo dnf install $(DIST)/RPMS/x86_64/$(name).*.rpm
+	sudo dnf install `find $(DIST)/RPMS/ -iname $(NAME)*.rpm | sort | tail -1`
